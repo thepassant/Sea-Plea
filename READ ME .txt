@@ -1,0 +1,12 @@
+go to admin/vids and place any video called "Sample.mp4"
+
+and to upload videos make sure first to do the following
+= open   : php.ini
+= change : post_max_size=800000000M
+= change :upload_max_filesize=200000000M
+
+
+oh and dont forget about the database
+= open : folder "sqls"
+= and import the latest file
+= name the database "gpbis"
